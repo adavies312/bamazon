@@ -58,6 +58,8 @@ If you haven't written a markdown file yet, [click here for a rundown](https://g
 8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
    * This means updating the SQL database to reflect the remaining quantity.
    * Once the update goes through, show the customer the total cost of their purchase.
+   
+   ![customerBAMAZON](/images/bamazonCustomer.png)
 
 - - -
 
@@ -86,6 +88,8 @@ If you haven't written a markdown file yet, [click here for a rundown](https://g
   * If a manager selects `Add to Inventory`, your app should display a prompt that will let the manager "add more" of any item currently in the store.
 
   * If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
+
+   ![customerBAMAZON](/images/bamazonManager.png)
 
 - - -
 
