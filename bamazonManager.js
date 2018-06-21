@@ -120,8 +120,9 @@ function addToInventory (){
             ]).then(function(response){
                 var newQuantity = answers.quantity;
                 var productID = answers.product;
-                var updatedQuantity = newQuantity + quantity
+                var updatedQuantity = newQuantity 
                 console.log(answers.quantity)
+                console.log(productID);
               connection.query("UPDATE products Set stock_quantity =? Where item_id=?", [updatedQuantity, productID],function (err, data){
                 console.log(`${answers.product} has been changed to ${updatedQuantity}`)
                 start();

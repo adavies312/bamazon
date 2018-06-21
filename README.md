@@ -8,7 +8,7 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 ## Instructions
 
-### Challenge #1: Customer View (Minimum Requirement)
+### Challenge #1: Customer View 
 
 1. Create a MySQL Database called `bamazon`.
 
@@ -42,11 +42,12 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
    * This means updating the SQL database to reflect the remaining quantity.
    * Once the update goes through, show the customer the total cost of their purchase.
-   
+
+### Screenshot of Customer View:
    ![customerBAMAZON](/images/bamazonCustomer.png)
 
 
-### Challenge #2: Manager View (Next Level)
+### Challenge #2: Manager View 
 
 * Create a new Node application called `bamazonManager.js`. Running this application will:
 
@@ -68,9 +69,10 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
   * If a manager selects `Add New Product`, it should allow the manager to add a completely new product to the store.
 
-   ![customerBAMAZON](/images/bamazonManager.png)
+## Screenshot of Manager View:
+   ![managerBAMAZON](/images/bamazonManager.png)
 
-### Challenge #3: Supervisor View (Final Level)
+### Challenge #3: Supervisor View 
 
 1. Create a new MySQL table called `departments`. Your table should include the following columns:
 
@@ -103,11 +105,5 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 7. If you can't get the table to display properly after a few hours, then feel free to go back and just add `total_profit` to the `departments` table.
 
-   * Hint: You may need to look into aliases in MySQL.
-
-   * Hint: You may need to look into GROUP BYs.
-
-   * Hint: You may need to look into JOINS.
-
-   * **HINT**: There may be an NPM package that can log the table to the console. What's is it? Good question :)
-
+### Screenshot of Supervisor View:
+   ![supervisorBAMAZON](/images/bamazon-supervisor.png)

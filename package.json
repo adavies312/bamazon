@@ -4,6 +4,7 @@
   "description": "## Overview",
   "main": "bamazonCustomer.js",
   "dependencies": {
+    "console.table": "^0.10.0",
     "figlet": "^1.2.0",
     "inquirer": "^5.2.0",
     "mysql": "^2.15.0"
